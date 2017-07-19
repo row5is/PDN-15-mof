@@ -1,5 +1,6 @@
 
 
+
 # Philly.NET 15 minutes of Fame
 EF Core Framework example
 
@@ -19,4 +20,5 @@ install-package Microsoft.EntityFrameworkCore.Tools
 
 Install-Package Microsoft.EntityFrameworkCore.SqlServer.Design
 
-Scaffold-DbContext "{your server connection}" Microsoft.entityFrameworkCore.SqlServer -OutputDIr Models
+**Then run this command**
+Scaffold-DbContext "*{your server connection}*" Microsoft.entityFrameworkCore.SqlServer -OutputDIr Models
