@@ -1,4 +1,5 @@
 
+
 # Philly.NET 15 minutes of Fame
 EF Core Framework example
 
@@ -13,7 +14,9 @@ Dotnet ef database update
 Add these pacakges:
 
 Install-package Microsoft.EntityFrameworkCore.SqlServer
+
 install-package Microsoft.EntityFrameworkCore.Tools
+
 Install-Package Microsoft.EntityFrameworkCore.SqlServer.Design
 
 Scaffold-DbContext "{your server connection}" Microsoft.entityFrameworkCore.SqlServer -OutputDIr Models
